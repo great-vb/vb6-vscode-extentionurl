@@ -2,23 +2,16 @@ VERSION 5.00
 Begin VB.Form Form1 
    BorderStyle     =   1  'Fixed Single
    Caption         =   "VSCode插件下载地址转换"
-   ClientHeight    =   2535
+   ClientHeight    =   2250
    ClientLeft      =   45
    ClientTop       =   390
    ClientWidth     =   10215
    LinkTopic       =   "Form1"
    MaxButton       =   0   'False
    MinButton       =   0   'False
-   ScaleHeight     =   2535
+   ScaleHeight     =   2250
    ScaleWidth      =   10215
    StartUpPosition =   3  '窗口缺省
-   Begin VB.TextBox txtProxy 
-      Height          =   270
-      Left            =   1080
-      TabIndex        =   7
-      Top             =   2160
-      Width           =   5295
-   End
    Begin VB.Timer Timer1 
       Enabled         =   0   'False
       Interval        =   2000
@@ -66,14 +59,6 @@ Begin VB.Form Form1
       TabIndex        =   1
       Top             =   360
       Width           =   9975
-   End
-   Begin VB.Label Label4 
-      Caption         =   "代理参数"
-      Height          =   255
-      Left            =   120
-      TabIndex        =   6
-      Top             =   2160
-      Width           =   975
    End
    Begin VB.Label Label3 
       AutoSize        =   -1  'True
